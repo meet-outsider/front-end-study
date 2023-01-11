@@ -1,0 +1,48 @@
+header {
+    border: 1px solid black;
+}
+
+.box {
+    border: 1px solid #333333;
+    width: 200px;
+    height: 100px;
+    /*超出部分*/
+    /*scroll 滚动*/
+    /*hidden 隐藏*/
+    overflow-x: scroll;
+}
+
+.unit div {
+    width: 100px;
+    /*颜色值、饱和度、亮度、透明度*/
+    /*background-color: rgb(129, 166, 201);*/
+    background-color: hsl(345, 97%, 49%, 1);
+    margin: 20px;
+}
+
+.unit :nth-child(1) {
+    height: 5em;
+}
+
+.unit :nth-child(2) {
+    height: 20vw;
+}
+
+.unit :nth-child(3) {
+    height: 20vh;
+}
+
+.gradient {
+    border-radius:.9em;
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(90deg, rgba(119, 0, 255, 1) 39%, rgba(0, 212, 255, 1) 100%);
+    background-position: right 10px;
+}
+.star{
+    width: 200px;
+    height: 200px;
+    background-image: url("star.svg");
+    background-position: right 20px;
+    background-repeat: no-repeat;
+}

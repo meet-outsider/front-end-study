@@ -52,3 +52,29 @@ body {
     background-position: right 20px;
     background-repeat: no-repeat;
 }
+
+.layout div {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.box {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.wrapper div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+}
